@@ -4,7 +4,8 @@
   "description": "Backend of the CFC Website.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node Server.js"
   },
   "author": "Aashutosh Nishad",
   "license": "ISC",
