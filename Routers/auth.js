@@ -41,6 +41,7 @@ Master Key
             return res.send("Password is incorrect");
         }
         let {Password ,...otherDetails} = user._doc;
+
         return res.send(otherDetails);
     }
     catch (e) {

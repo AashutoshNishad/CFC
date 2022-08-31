@@ -118,5 +118,10 @@ console.log(Email);
  return  res.send("internal server Error");
  }
 })
+
+
+userrouter.post("/givecharge" , (req,res)=>{
+  return res.send("");
+})
 // express - validator;
 module.exports = userrouter;

@@ -7,10 +7,9 @@ const User = new mongoose.Schema({
     length: { max: 200 },
     required: true,
   },
-  Date: {
+  Date: [{
     type: Date,
-   //  require: true,
-  },
+  }],
   venue: {
     type: String,
     required: true,
